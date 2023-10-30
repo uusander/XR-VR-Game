@@ -19,7 +19,8 @@ public class NetworkPlayer : MonoBehaviour
 
         if (!photonView.IsMine)
         {
-            localCharacter.SetActive(false);
+            Destroy(localCharacter);
+            //localCharacter.SetActive(false);
             //inputActionManager.DisableInput();
         }
     }
@@ -29,6 +30,7 @@ public class NetworkPlayer : MonoBehaviour
     {
         if (!photonView.IsMine)
         {
+            Destroy(localCharacter);
             //localCharacter.SetActive(false);
             //inputActionManager.DisableInput();
         }

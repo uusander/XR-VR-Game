@@ -646,6 +646,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1178592400898699451, guid: 433bf91dd8b58664aa2cc8d9554b704c, type: 3}
+      propertyPath: m_Parameters.widthMultiplier
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435910478596779056, guid: 433bf91dd8b58664aa2cc8d9554b704c, type: 3}
+      propertyPath: m_Parameters.widthMultiplier
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 3923451429445518877, guid: 433bf91dd8b58664aa2cc8d9554b704c, type: 3}
       propertyPath: m_UIScrollAction.m_Action.m_Id
       value: cf48cc70-cc34-450b-a355-e175c2b3008e
